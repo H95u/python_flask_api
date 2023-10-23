@@ -182,16 +182,6 @@ def search():
             respone = {'respone': 'No Comment Found'}
             return jsonify(respone)
 
-
-    
-
-    
-
-    
-
-
-    
-
 @app.route('/logout')
 def logout():
     session.pop('loggedin', None)
